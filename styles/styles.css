@@ -109,6 +109,7 @@ img {
     width: 100%;
     padding: 0px;
 }
+
 /* 
 CAGE Li
 *********************** */
@@ -125,7 +126,6 @@ CAGE Li
     .cageItem p, img {
         color: white;
         width: 100%;
-        margin: 0;
         font-family: 'Anonymous Pro', monospace;
     }
 
@@ -135,13 +135,18 @@ CAGE Li
         margin-bottom: 10px;
     }
 
-    /* .cageOverview {
-        
+    p {
+        line-height: 18px;
+        font-size: 1.5rem;
+    }
+
+    .cageOverview {
+        margin-top: 15px;
     }
 
     .cageMetric {
-
-    } */
+        
+    } 
 
     .slogan {
         color: White;
@@ -222,7 +227,7 @@ CAGE Li
         .imageContainer {
             width: 90%;
         }
-    }
+    
 
         .cageItem {
             width: 70%;
@@ -230,5 +235,5 @@ CAGE Li
             align-items: center;
             margin-bottom: 55px;
         }
-    }  
+    }
 
